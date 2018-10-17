@@ -1,25 +1,21 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
+import LinkOpener from './components/link_opener';
+import { BrowserRouter, Route } from 'react-router-dom';
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
+      <div className="App container">
+          <br />
+          <h4>
+              Open multiple links with one click
+          </h4>
+          <BrowserRouter>
+              <div>
+                  <Route path='/links/' component={LinkOpener} />
+              </div>
+          </BrowserRouter>
       </div>
     );
   }

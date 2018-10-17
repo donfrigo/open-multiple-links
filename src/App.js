@@ -13,7 +13,7 @@ class App extends Component {
           </h4>
           <BrowserRouter>
               <div>
-                  <Route path='/links/' component={LinkOpener} />
+                  <Route path='/' component={LinkOpener} />
               </div>
           </BrowserRouter>
       </div>

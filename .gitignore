@@ -329,4 +329,3 @@ DerivedData/
 # End of https://www.gitignore.io/api/linux,intellij,reactnative
 .idea/
 multiple-links.iml
-src/components/

@@ -9,7 +9,7 @@ Installation:
 3. Run `npm start`
 4. Navigate to localhost:3000
 
-Or you can check out the progressive web app:
+Or you can check it out on Github pages:
 
 https://donfrigo.github.io/open-multiple-links/
 

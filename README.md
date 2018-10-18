@@ -11,7 +11,7 @@ Installation:
 
 Or you can check it out on Github pages:
 
-https://donfrigo.github.io/open-multiple-links/
+https://donfrigo.github.io/open-multiple-links
 
 Usage:
 
